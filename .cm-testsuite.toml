@@ -1,0 +1,17 @@
+# Receives tests from cm-testsuite. This repository shares none.
+schema = 1
+
+[receive]
+enabled = true
+additions = "pull-request"
+updates = "pull-request"
+deletions = "manual"
+exclude = []
+
+# Received files land at tests/shared/OWNER/REPO/NAME.wast.
+[[receive.route]]
+name = "shared"
+destination = "file:///tests/shared"
+supports = ["component-model"]
+covers_any = []      # any coverage category
+allow_unknown = true # feature inference is always incomplete
