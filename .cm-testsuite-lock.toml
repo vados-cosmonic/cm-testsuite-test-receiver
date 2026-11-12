@@ -1,0 +1,8 @@
+schema = 1
+catalog_sha256 = "3db6722c13de1651c6e8ba43a8d0d315ab12866945d17c17d9c0d1027b0a850c"
+
+[tests."github:vados-cosmonic/cm-testsuite-test-source/values/u32-add"]
+path = "tests/shared/vados-cosmonic/cm-testsuite-test-source/values/u32-add.wast"
+sha256 = "665a236d28bdcc2afd6d32dc77a93757325330e3251d46487e9f92c04f4fb96c"
+revision = "479a5dcbf4d0ab0be15ace2f98e6c1b9dd3c9690"
+route = "shared"
